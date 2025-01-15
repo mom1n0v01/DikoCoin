@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кликер с монетой</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Кликер игра с монетой</h1>
+        <p id="score">Монеты: 0 D</p> <!-- Счётчик монет -->
+        <div id="coin" class="coin">D</div> <!-- Кнопка с монетой в центре -->
+        <p>Клики: <span id="click-count">0</span></p>
+
+        <div id="upgrades">
+            <h2>Улучшения</h2>
+            <button id="upgrade-click">Улучшить клик (100 D)</button>
+            <button id="auto-clicker">Автокликер (500 D)</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
